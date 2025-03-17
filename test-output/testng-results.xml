@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-16T13:57:20 IST" name="Default suite" finished-at="2025-03-16T13:57:23 IST" duration-ms="3477">
+  <suite started-at="2025-03-17T15:09:09 IST" name="Default suite" finished-at="2025-03-17T15:09:14 IST" duration-ms="5699">
     <groups>
     </groups>
-    <test started-at="2025-03-16T13:57:20 IST" name="Default test" finished-at="2025-03-16T13:57:23 IST" duration-ms="3477">
-      <class name="tests.UserTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserTests@1151e434]" started-at="2025-03-16T13:57:20 IST" name="setup" finished-at="2025-03-16T13:57:20 IST" duration-ms="549" status="PASS">
+    <test started-at="2025-03-17T15:09:09 IST" name="Default test" finished-at="2025-03-17T15:09:14 IST" duration-ms="5699">
+      <class name="tests.All_Test">
+        <test-method signature="GetMethod()[pri:0, instance:tests.All_Test@69637b10]" started-at="2025-03-17T15:09:09 IST" name="GetMethod" finished-at="2025-03-17T15:09:13 IST" duration-ms="3838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testGetUser()[pri:0, instance:tests.UserTests@1151e434]" started-at="2025-03-16T13:57:20 IST" name="testGetUser" finished-at="2025-03-16T13:57:23 IST" duration-ms="2866" status="PASS">
+        </test-method> <!-- GetMethod -->
+        <test-method signature="PostMethod()[pri:0, instance:tests.All_Test@69637b10]" started-at="2025-03-17T15:09:13 IST" name="PostMethod" finished-at="2025-03-17T15:09:13 IST" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUser -->
-      </class> <!-- tests.UserTests -->
+        </test-method> <!-- PostMethod -->
+        <test-method signature="deleteMethod()[pri:0, instance:tests.All_Test@69637b10]" started-at="2025-03-17T15:09:13 IST" name="deleteMethod" finished-at="2025-03-17T15:09:14 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethod -->
+        <test-method signature="putMethod()[pri:0, instance:tests.All_Test@69637b10]" started-at="2025-03-17T15:09:14 IST" name="putMethod" finished-at="2025-03-17T15:09:14 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethod -->
+      </class> <!-- tests.All_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
